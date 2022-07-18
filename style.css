@@ -1,0 +1,19 @@
+div {
+  font-size: 75px;
+  font-weight: bold;
+  color: black;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow-x: hidden;
+  background-image: linear-gradient(orange, white, green);
+}
+
+@media (max-width: 768px) {
+  div {
+    font-size: 50px;
+  }
+}
